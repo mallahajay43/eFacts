@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Merriweather:wght@300&family=Roboto:wght@300&family=Ubuntu:wght@500&display=swap');
+
+:root{
+    --font1:'Merriweather', sans-serif;
+    --font2: 'Ubuntu', sans-serif;
+    --logo: 'Mea Culpa', cursive;
+}
+
+
+
+.max-width-1{
+    max-width: 70vw;
+}
+
+nav{
+    height: 9vh;
+    margin: auto;
+    padding-left: 20px;
+    background-color: #4d7c9c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.nav-left{
+    cursor: pointer;
+    font-family: var(--logo);
+}
+.nav-left:hover{
+    color: rgb(255, 255, 255);
+}
+.nav-right li{
+    /* margin: 0 20px; */
+    list-style: none;
+    cursor: pointer;
+}
+.nav-right{
+    display: flex;
+
+}
+.nav-right li{
+    height: 9vh;
+    /* height: 100%; */
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding:0 15px;
+    cursor: pointer;
+    font-size: 1.05rem;
+}
+.nav-right li:hover{
+    background-color: #5799b3;
+}
+
+.nav-right li:hover .link{
+    color: whitesmoke;
+}
+
+.link{
+    text-decoration: none;
+    /* font-family: var(--font2);
+    font-weight: 300;
+    font-size: .95rem; */
+    color: white;
+}

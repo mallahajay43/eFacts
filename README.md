@@ -1,2 +1,3 @@
 # eFacts
-information about election
+Front End article website about Election
+
